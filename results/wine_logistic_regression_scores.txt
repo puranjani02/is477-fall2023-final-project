@@ -1,0 +1,2 @@
+Accuracy Score for Logistic Regression: 94.444 %
+F1-Score for Logistic Regression: 0.945
