@@ -18,7 +18,6 @@ Microsoft Windows [Version 10.0.19045.3693]</br>
 _Python Specification_ </br> 
 Python 3.10 </br> 
 Pip 23.2.1</br>
- </br> 
 
 _Python Dependencies_ </br> 
 annotated-types==0.6.0 </br>
@@ -71,7 +70,6 @@ urllib3==2.1.0 </br>
 visions==0.7.5 </br>
 wordcloud==1.9.2 </br>
 ydata-profiling==4.6.1 </br>
- </br>
 
 _Steps to reproduce the results_
 1. Clone this repository  </br>
@@ -80,8 +78,7 @@ _Steps to reproduce the results_
    b. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023:assignment2 python scripts/profile.py </br>
    c. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023:assignment2 python scripts/analysis.py </br>
     _if running in MacOS replace %cd% by ${PWD}_ </br>
-     </br>
-
+    
 ## License
 This repository is licensed under [GNU GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html). This is a copyleft FOSS license. It allows commercial use, distribution, modification, patent use and private use. This will allow the work to be distributed and modified in future. This is a step towards making the work transparent in future. This will allow this work to be reproduced and modified in future. The GPLv3 license also enforces that the source of the work be mentioned, along with license and copyright notice. This license also conditions the next works to be under the same GPLv3 license, ensuring transparency for all of them. Also, modified works on this study will have to mention the changes done from the original work explicitly. 
 
