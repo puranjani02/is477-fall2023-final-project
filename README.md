@@ -9,7 +9,7 @@ A classification task was performed on the dataset for prediction of classes of 
 ## Workflow 
 The workflow of the data preparation, profiling and analysis was built using SnakeMake. 
 
-![](file:///C:/Users/Puranjani/Downloads/graph.svg)
+![](graph.png)
 
 ## Reproducing
 
