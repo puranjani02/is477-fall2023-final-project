@@ -12,13 +12,13 @@
     "related_identifiers": [
       {
           "scheme": "doi",
-          "identifier": "10.24432/C5XW20",
+          "identifier": "10.24432/C5PC7J",
           "relation": "cites",
           "resource_type": "dataset"
       },
     {
           "scheme": "url",
-          "identifier": "https://github.com/puranjani02/is477-fall2023",
+          "identifier": "https://github.com/puranjani02/is477-fall2023-final-project",
           "relation": "isSupplementTo",
           "resource_type": "workflow"
       }],
