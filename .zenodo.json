@@ -9,7 +9,19 @@
         "name": "Das, Puranjani"
       }
     ],
-        
+    "related_identifiers": [
+      {
+          "scheme": "doi",
+          "identifier": "10.24432/C5XW20",
+          "relation": "cites",
+          "resource_type": "dataset"
+      },
+    {
+          "scheme": "url",
+          "identifier": "https://github.com/puranjani02/is477-fall2023",
+          "relation": "isSupplementTo",
+          "resource_type": "workflow"
+      }],
     "access_right": "open",
     "upload_type": "software",
     "license": "GPL-3.0",
