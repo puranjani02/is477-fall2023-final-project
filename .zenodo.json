@@ -1,27 +1,17 @@
 {
-    "creators": [
-        {
-            "orcid": "0000-0003-0657-7700",
-            "name": "Das, Puranjani"
-        }
-    ],
-
-    "license": "GNU GPLv3",
-
     "title": "IS477-FALL2023-FINAL-PROJECT - Exploration of the Wine Dataset from UCI repository",
-
-    "related_identifiers": [
-        {
-            "scheme": "doi",
-            "identifier": "10.24432/C5PC7J",
-            "relation": "cites",
-            "resource_type": "dataset"
-        },
+    
+     "description": "In this project, a Logistic Regression classification model is run on the Wine dataset from UCI repository, with the 'Class' variable as the target. This variable stores the type of wine and there are 3 classes of wines in this dataset. Initially a preliminary exploratory data analysis is run on the dataset. The performance of the model is judged using Accuracy Score (94.4%) and F1-Score (0.945).",
+    
+     "creators": [
       {
-            "scheme": "url",
-            "identifier": "https://github.com/puranjani02/is477-fall2023-final-project",
-            "relation": "isSupplementTo",
-            "resource_type": "workflow"
-        }
-    ]
-}
+        "orcid": "0000-0003-0657-7700",
+        "name": "Das, Puranjani"
+      }
+    ],
+        
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "GPL-3.0",
+    "keywords": ["Wine dataset", "Classification", "Logistic Regression"]
+  }
