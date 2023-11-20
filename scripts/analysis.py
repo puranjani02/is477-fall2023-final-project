@@ -34,5 +34,7 @@ f.close()
 
 #Visualization of the confusion matrix
 import seaborn as sns
-plt=sns.heatmap(confusion_matrix(test_y, predicted_lr), annot=True)
+import matplotlib.pyplot as plt
+cf=pd.crosstab(test_y,predicted_lr)
+plt=sns.heatmap(cf, annot=True, cmap='Blues', fmt='g', xticklabels=['1', '2', '3'], yticklabels=['1','2', '3'])
 plt.figure.savefig('results/confusion_matrix.pdf')
