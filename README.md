@@ -75,9 +75,9 @@ ydata-profiling==4.6.1 </br>
 _Steps to reproduce the results_
 1. Clone this repository  </br>
 2. If you have Docker installed, run the following commands in the windows terminal: </br>
-   a. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023-final-project:v1 python scripts/prepare_data.py </br>
-   b. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023-final-project:v1 python scripts/profile.py </br>
-   c. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023-final-project:v1 python scripts/analysis.py </br>
+   a. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023:final-project python scripts/prepare_data.py </br>
+   b. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023:final-project python scripts/profile.py </br>
+   c. docker run –-rm -v %cd%:/is477 puranjani02/is477-fall2023:final-project python scripts/analysis.py </br>
     _if running in MacOS replace %cd% by ${PWD}_ </br>
     
 ## License
